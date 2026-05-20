@@ -51,9 +51,7 @@
             >;
         };
     };
-};
 
-/ {
     combos {
         compatible = "zmk,combos";
         combo_BT_CLR {

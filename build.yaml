@@ -20,6 +20,6 @@
 ---
 include:
   - board: nice_nano_v2
-    shield: ilikedarbo_left
+    shield: ilikedarbo_split_left
   - board: nice_nano_v2
-    shield: ilikedarbo_right
+    shield: ilikedarbo_split_right
