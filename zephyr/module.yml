@@ -5,4 +5,3 @@ build:
   settings:
     # Folder containing a "boards" folder (. = root)
     board_root: .
-    kconfig: Kconfig.shield
