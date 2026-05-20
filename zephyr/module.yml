@@ -1,5 +1,5 @@
 # Give your module a name
-name: zmk-keyboard-iLikeDarboSplit
+name: zmk-keyboard-ilikedarbo_split
 build:
   settings:
     # Folder containing a "boards" folder (. = root)
