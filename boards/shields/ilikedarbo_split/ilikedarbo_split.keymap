@@ -65,8 +65,13 @@
         };
         combo_BLE_OUT {
             timeout-ms = <50>;      //O - P
-            key-positions = <8 9>;    //see https://zmk.dev/docs/keymaps/behaviors/outputs
+            key-positions = <11 13>;    //see https://zmk.dev/docs/keymaps/behaviors/outputs
             bindings = <&out OUT_BLE>;  //allow usage while charging power bank
+        };
+        combo_BLE_OUT {
+            timeout-ms = <50>;      //O - P
+            key-positions = <1 3>;    //see https://zmk.dev/docs/keymaps/behaviors/outputs
+            bindings = <&out OUT_USB>;  //allow usage while charging power bank
         };
     };
 };
