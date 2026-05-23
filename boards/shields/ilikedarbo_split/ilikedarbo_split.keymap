@@ -32,7 +32,7 @@
                 &kp KP_N7  &kp KP_N8  &kp KP_N9  &kp KP_MULTIPLY  &kp KP_SUBTRACT       &kp KP_EQUAL &kp LBKT &kp RBKT &kp F9 &kp F10
                 &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp KP_SLASH  &kp KP_PLUS              &kp TAB &kp F1 &kp F3 &kp F4 &kp RET
                 &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp KP_N0  &kp KP_DOT                  &kp F5 &kp F6 &kp F11 &kp DOT &kp FSLH
-                        &kp LSHFT &none &kp BT_SEL 0                                       &kp RALT &kp BSPC &kp SPACE
+                        &kp LSHFT &none &kp LCTRL                                       &kp RALT &kp BSPC &kp SPACE
             >;
         };
         function_layer {
