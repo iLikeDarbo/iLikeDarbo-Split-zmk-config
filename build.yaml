@@ -25,3 +25,5 @@ include:
     shield: ilikedarbo_split_right
   # - board: nice_nano    #build with this uncommented and flash the reset firmware to reset all settings
   #   shield: settings_reset
+  - board: nice_nano # debugger version that prints pinouts
+    shield: tester_pro_micro
