@@ -3,8 +3,8 @@
 # for instructions.
 
 file_format: "1"
-id: ilikedarbo_split
-name: iLikeDarbo_split
+id: ild_split
+name: ild_split
 type: shield
 
 # Set this to a URL that documents the keyboard.
@@ -20,5 +20,5 @@ requires:
   - pro_micro
 
 siblings:
-  - ilikedarbo_split_left
-  - ilikedarbo_split_right
+  - ild_split_left
+  - ild_split_right

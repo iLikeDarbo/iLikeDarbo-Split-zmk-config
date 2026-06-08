@@ -2,10 +2,15 @@
 // See https://zmk.dev/docs/development/hardware-integration/new-shield for more
 // instructions.
 
-#include "ilikedarbo_split.dtsi"
+#include "ild_split.dtsi"
+
+&default_transform0 {
+    // Set this to the number of columns on the left side.
+    col-offset = <5>;
+};
 
 &kscan0 {
-    //Replace these comments with the GPIO pins in the matrix for the left side.
+    //Replace these comments with the GPIO pins in the matrix for the right side.
     //See https://zmk.dev/docs/development/hardware-integration/new-shield#shield-overlays
         col-gpios
             = <&pro_micro 18 GPIO_ACTIVE_HIGH>

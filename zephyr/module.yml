@@ -1,5 +1,5 @@
 # Give your module a name
-name: ilikedarbo_split
+name: ild_split
 #zmk-keyboard-ilikedarbo_split
 build:
   settings:
