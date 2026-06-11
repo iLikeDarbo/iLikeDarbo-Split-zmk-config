@@ -9,8 +9,13 @@
 / {
     chosen {
         zmk,physical-layout = &physical_layout0;
+        zmk,battery = &vbatt;   //adding monitor for battery level
     };
 
+    vbatt: vbatt {
+        compatible = "zmk,battery-nrf-vddh";
+    };
+    
     kscan0: kscan {
         // If the hardware does not use a switch matrix, change this to the
         // appropriate driver and update the properties below to match.
