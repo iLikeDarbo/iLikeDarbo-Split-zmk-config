@@ -63,7 +63,7 @@
         //     timeout-ms = <50>;
         //     key-positions = <20 22>;  //Z - C
         //     bindings = <&bt BT_DISC 0>;
-        };
+        //};
         // combo_BLE_OUT {
         //     timeout-ms = <50>;      //O - P
         //     key-positions = <11 13>;    //see https://zmk.dev/docs/keymaps/behaviors/outputs
