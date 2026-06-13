@@ -40,7 +40,7 @@
             display-name = "Function Layer";  //layer 2
             bindings = <
                 &kp ESC  &kp F2  &kp LPAR  &kp STAR  &kp MINUS          &kp EQUAL &kp F7 &kp F8 &kp F9 &sys_reset
-                &kp TAB  &kp APOS  &kp RPAR  &kp DQT  &kp PLUS          &kp LEFT &kp DOWN &kp UP &kp RIGHT &kp PSCRN
+                &kp TAB  &kp APOS  &kp RPAR  &kp LS(N2)  &kp PLUS          &kp LEFT &kp DOWN &kp UP &kp RIGHT &kp PSCRN
                 &kp LGUI  &kp NUHS  &kp LALT  &kp LG(L)  &kp NUBS        &kp SEMI &kp EXCL &kp DLLR &kp PG_UP &kp PG_DN
                         &kp LSHFT &mo 1 &kp LCTRL                       &kp RALT &none &kp DEL
             >;
