@@ -30,10 +30,10 @@
         number_layer {
             display-name = "Number Layer";  //layer 1
             bindings = <
-                &kp KP_N7  &kp KP_N8  &kp KP_N9  &kp KP_MULTIPLY  &kp KP_SUBTRACT       &kp KP_EQUAL &kp LBKT &kp RBKT &kp F9 &kp F10
-                &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp KP_SLASH  &kp KP_PLUS              &kp TAB &kp F1 &kp F3 &kp F4 &kp RET
-                &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp KP_N0  &kp KP_DOT                  &kp F5 &kp F6 &kp F11 &kp DOT &kp FSLH
-                        &kp LSHFT &none &bt BT_SEL 0                                       &kp RALT &kp BSPC &kp SPACE
+                &kp N7  &kp N8  &kp N9  &kp KP_MULTIPLY  &kp KP_SUBTRACT       &kp EQUAL &kp LBKT &kp RBKT &kp F9 &kp F10
+                &kp N4  &kp N5  &kp N6  &kp KP_SLASH  &kp KP_PLUS              &kp TAB &kp F1 &kp F3 &kp F4 &kp RET
+                &kp N1  &kp N2  &kp N3  &kp N0  &kp KP_DOT                  &kp F5 &kp F6 &kp F11 &kp DOT &kp FSLH
+                        &kp LSHFT &none &kp LCTRL                                       &kp RALT &kp BSPC &kp SPACE
             >;
         };
         function_layer {
@@ -54,10 +54,10 @@
             key-positions = <0 2>;  //Q - E
             bindings = <&bt BT_CLR>;
         };
-        combo_BT_SEL_0 {
+        combo_BT_NXT {
             timeout-ms = <50>;
             key-positions = <10 12>;  //A - D
-            bindings = <&bt BT_SEL 0>;
+            bindings = <&bt BT_NXT>;
         };
         combo_BT_DISC_0 {
             timeout-ms = <50>;
